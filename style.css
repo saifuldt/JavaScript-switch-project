@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    font-size: 50px;
+}
+
+input.fff {
+    height: 40px;
+    font-size: 20px;
+}
+
+button.bbb {
+    height: 40px;
+}

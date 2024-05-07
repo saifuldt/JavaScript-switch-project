@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JavaScript switch project</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>write: a-z or 1-26</h2>
+        <form action="submit" id="fomsdata">
+            <input class="fff" type="text">
+            <button class="bbb" type="submit">Check</button>
+        </form>
+        <p id="para"></p>
+    </div>
+
+    <script>
+        let para = document.getElementById("para");
+        let form = document.getElementById("fomsdata");
+        let inputField = document.querySelector("#fomsdata input[type='text']");
+        form.addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            let inputValue = inputField.value;
+
+            switch (inputValue) {
+                case "a":
+                    para.innerText = "1";
+                    break;
+                case "b":
+                    para.innerText = "2";
+                    break;
+                case "c":
+                    para.innerText = "3";
+                    break;
+                case "d":
+                    para.innerText = "4";
+                    break;
+                case "e":
+                    para.innerText = "5";
+                    break;
+                case "f":
+                    para.innerText = "6";
+                    break;
+                case "g":
+                    para.innerText = "7";
+                    break;
+                case "h":
+                    para.innerText = "8";
+                    break;
+                case "i":
+                    para.innerText = "9";
+                    break;
+                case "j":
+                    para.innerText = "10";
+                    break;
+                case "k":
+                    para.innerText = "11";
+                    break;
+                case "l":
+                    para.innerText = "12";
+                    break;
+                case "m":
+                    para.innerText = "13";
+                    break;
+                case "n":
+                    para.innerText = "14";
+                    break;
+                case "o":
+                    para.innerText = "15";
+                    break;
+                case "p":
+                    para.innerText = "16";
+                    break;
+                case "q":
+                    para.innerText = "17";
+                    break;
+                case "r":
+                    para.innerText = "18";
+                    break;
+                 case "s":
+                    para.innerText = "19";
+                    break; 
+                case "t":
+                    para.innerText = "20";
+                    break;
+                 case "u":
+                    para.innerText = "21";
+                    break;
+                 case "v":
+                    para.innerText = "22";
+                    break;
+                 case "w":
+                    para.innerText = "23";
+                    break;
+                 case "x":
+                    para.innerText = "24";
+                    break; 
+                case "a":
+                    para.innerText = "1";
+                    break;
+                 case "y":
+                    para.innerText = "25";
+                    break;
+                 case "z":
+                    para.innerText = "26";
+                    break;
+                case "1":
+                    para.innerText = "A";
+                    break;
+                case "2":
+                    para.innerText = "B";
+                    break;
+                case "3":
+                    para.innerText = "C";
+                    break;
+                case "4":
+                    para.innerText = "D";
+                    break;
+                case "5":
+                    para.innerText = "E";
+                    break;
+                case "6":
+                    para.innerText = "F";
+                    break;
+                case "7":
+                    para.innerText = "G";
+                    break;
+                case "8":
+                    para.innerText = "H";
+                    break;
+                case "9":
+                    para.innerText = "I";
+                    break;
+                case "10":
+                    para.innerText = "J";
+                    break;
+                case "11":
+                    para.innerText = "K";
+                    break;
+                case "12":
+                    para.innerText = "L";
+                    break;
+                case "13":
+                    para.innerText = "M";
+                    break;
+                case "14":
+                    para.innerText = "N";
+                    break;
+                case "15":
+                    para.innerText = "O";
+                    break;
+                case "16":
+                    para.innerText = "P";
+                    break;
+                case "17":
+                    para.innerText = "Q";
+                    break;
+                case "18":
+                    para.innerText = "R";
+                    break; case "19":
+                    para.innerText = "S";
+                    break;
+                 case "20":
+                    para.innerText = "T";
+                    break;
+                 case "21":
+                    para.innerText = "U";
+                    break;
+                 case "22":
+                    para.innerText = "V";
+                    break;
+                 case "23":
+                    para.innerText = "W";
+                    break; 
+                case "24":
+                    para.innerText = "X";
+                    break; 
+                case "25":
+                    para.innerText = "Y";
+                    break;
+                 case "26":
+                    para.innerText = "Z";
+                    break;
+
+                default:
+                    para.innerText = "Not Found";
+            }
+        });
+
+    </script>
+</body>
+
+</html>
